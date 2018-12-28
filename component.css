@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(40, 235, 160);
+    font-family: Roboto;
+    position: relative;
+    width: 100%;
+}
+@media (max-width: 1920px){
+    #triangle{
+        border-top: 200px solid rgb(19, 46, 97);
+        border-left: 430px solid transparent;
+        float: right;
+    }
+    #my_name{
+        font-size: 35px;
+    }
+    #heart{
+        width: 100px;
+        
+    }
+    #click{
+        width: 100px;
+        
+    }
+    .content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column
+    }
+    #content{
+        font-size: 40px;
+    }
+    #author{
+        font-size: 30px;
+    }
+}
+@media (max-width: 1366px){
+    #triangle{
+        border-top: 140px solid rgb(19, 46, 97);
+        border-left: 330px solid transparent;
+        float: right;
+    }
+    #my_name{
+        font-size: 25px;
+    }
+    #heart{
+        width: 70px;
+        
+    }
+    #click{
+        width: 70px;
+        
+    }
+    .content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column
+    }
+    #content{
+        font-size: 30px;
+    }
+    #author{
+        font-size: 20px;
+    }
+}
+@media  (max-width: 600px){
+    #triangle{
+        border-top: 100px solid rgb(19, 46, 97);
+        border-left: 230px solid transparent;
+        float: right;
+    }
+    #my_name{
+        font-size: 16px;
+    }
+    #heart{
+        width: 50px;
+        
+    }
+    #click{
+        width: 50px;
+        
+    }
+    .content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column
+    }
+    #content{
+        font-size: 25px;
+    }
+    #author{
+        font-size: 15px;
+    }
+}
+
+#triangle{
+	width: 0;
+	height: 0;
+}
+#my_name{
+    position: absolute;
+    right: 30px;
+    color: white;
+    top: 20px
+}
+.content{
+    width: 100%;
+}
+#content{
+    text-align: center;
+}
+#click{
+    border: 1px solid rgba(53, 52, 52, 0.226);
+    background: rgba(53, 52, 52, 0.144);
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 10px;
+}
+#heart{
+    animation: heart 1s infinite alternate;
+    margin-bottom: 20px;
+}
+#author{
+    color: rgb(46, 44, 44)
+}
+@keyframes heart{
+    from{transform: scale(1,1)}
+    to{transform: scale(1.5,1.5)}
+}
+#play{
+    height: 30px;
+    margin-top: 20px;
+}
