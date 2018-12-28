@@ -62,7 +62,7 @@ body{
         flex-direction: column
     }
     #content{
-        font-size: 30px;
+        font-size: 25px;
     }
     #author{
         font-size: 20px;
@@ -92,7 +92,7 @@ body{
         flex-direction: column
     }
     #content{
-        font-size: 25px;
+        font-size: 20px;
     }
     #author{
         font-size: 15px;
