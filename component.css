@@ -3,15 +3,15 @@
     padding: 0;
 }
 body{
-    background: rgb(40, 235, 160);
+    background: rgb(46, 204, 113);
     font-family: Roboto;
     position: relative;
     width: 100%;
 }
 @media (max-width: 1920px){
     #triangle{
-        border-top: 200px solid rgb(19, 46, 97);
-        border-left: 430px solid transparent;
+        border-top: 220px solid rgb(44, 62, 80);
+        border-left: 500px solid transparent;
         float: right;
     }
     #my_name{
@@ -40,8 +40,8 @@ body{
 }
 @media (max-width: 1366px){
     #triangle{
-        border-top: 140px solid rgb(19, 46, 97);
-        border-left: 330px solid transparent;
+        border-top: 160px solid rgb(44, 62, 80);
+        border-left: 380px solid transparent;
         float: right;
     }
     #my_name{
@@ -70,8 +70,8 @@ body{
 }
 @media  (max-width: 600px){
     #triangle{
-        border-top: 100px solid rgb(19, 46, 97);
-        border-left: 230px solid transparent;
+        border-top: 130px solid rgb(44, 62, 80);
+        border-left: 275px solid transparent;
         float: right;
     }
     #my_name{
